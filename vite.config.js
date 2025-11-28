@@ -23,5 +23,6 @@ export default defineConfig({
         "src/windows"
       ),
     },
+    extensions: [".js", ".jsx"],
   },
 });
