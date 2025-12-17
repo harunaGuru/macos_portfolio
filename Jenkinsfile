@@ -1,3 +1,4 @@
+def gv
 pipeline {
   agent any
   parameters {
@@ -6,6 +7,13 @@ pipeline {
   }
 
   stages {
+    stage('init') {
+      steps {
+        script {
+          gv = load "script.groovy"
+        }
+      }
+    }
     stage('Checkout') {
       steps {
         echo 'checing out  code...'
@@ -32,7 +40,9 @@ pipeline {
         }
       }
       steps {
-        echo 'Running tests...'
+        script {
+          gv.testApp()
+        }
       }
     }
   }
