@@ -3,6 +3,7 @@ pipeline {
   parameters {
     choice(name: "Version", choices: ['1.1.0', '1.2.0', '1.3.0'], description: "")
     booleanParam(name: "executeTests", defaultValue: true, description: "")
+  }
 
   stages {
     stage('Checkout') {
@@ -29,6 +30,7 @@ pipeline {
         expression {
           params.executeTests
         }
+      }
       steps {
         echo 'Running tests...'
       }
