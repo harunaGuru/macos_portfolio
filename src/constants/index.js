@@ -297,13 +297,6 @@ const WORK_LOCATION = {
             "Sellers also get access to a detailed analytics dashboard, tracking visitor activity by day, week, month, year, and even by parity groups.",
             "Built with Next.js, TypeScript, Clerk, Stripe, and TailwindCSS, it delivers fast performance, clean UI, and a seamless experience for both sellers and their customers.",
           ],
-
-          // description: [
-          //   "The Nike eCommerce website is a sleek and modern platform designed for shopping the latest Nike collections.",
-          //   "Instead of a simple online store, it delivers an immersive experience with bold visuals, interactive product displays, and smooth navigation.",
-          //   "Think of it like walking into a flagship Nike store—but right from your phone or laptop.",
-          //   "It's built with Next.js and Tailwind, ensuring fast performance, responsive design, and a clean, premium look.",
-          // ],
         },
         {
           id: 2,
@@ -313,15 +306,6 @@ const WORK_LOCATION = {
           fileType: "url",
           href: "https://easy-pppp.vercel.app",
           position: "top-10 right-20",
-        },
-        {
-          id: 3,
-          name: "easy-pppp.png",
-          icon: "/images/image.png",
-          kind: "file",
-          fileType: "img",
-          position: "top-52 right-80",
-          imageUrl: "/images/easy-ppp2.png",
         },
         {
           id: 4,
@@ -410,7 +394,7 @@ const WORK_LOCATION = {
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-10 left-80",
-      windowPosition: "top-[33vh] left-7",
+      windowPosition: "top-[37vh] left-7",
       children: [
         {
           id: 1,
@@ -477,7 +461,7 @@ const WORK_LOCATION = {
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-52 left-80",
-      windowPosition: "top-[48vh] left-7",
+      windowPosition: "top-[52vh] left-7",
       children: [
         {
           id: 1,
@@ -529,7 +513,7 @@ const WORK_LOCATION = {
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-80 right-80",
-      windowPosition: "top-[61vh] left-9",
+      windowPosition: "top-[69vh] left-9",
       children: [
         {
           id: 1,
@@ -581,7 +565,7 @@ const WORK_LOCATION = {
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-86 left-80",
-      windowPosition: "top-[31vh] left-53",
+      windowPosition: "top-[35vh] left-53",
       children: [
         {
           id: 1,
@@ -684,7 +668,7 @@ const WORK_LOCATION = {
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-110 right-5",
-      windowPosition: "top-[20vh] left-50",
+      windowPosition: "top-[20vh] left-55",
       children: [
         {
           id: 1,
@@ -767,7 +751,7 @@ const WORK_LOCATION = {
           kind: "file",
           fileType: "url",
           href: "https://majehub-seller-ui.vercel.app",
-          position: "top-20 right-20",
+          position: "top-20 right-60",
         },
         {
           id: 4,
@@ -776,7 +760,7 @@ const WORK_LOCATION = {
           kind: "file",
           fileType: "url",
           href: "https://majehub-admin-ui.vercel.app",
-          position: "top-30 right-20",
+          position: "top-50 right-12",
         },
         {
           id: 5,
@@ -794,7 +778,7 @@ const WORK_LOCATION = {
           kind: "file",
           fileType: "url",
           href: "https://github.com/harunaGuru/majehub",
-          position: "top-60 right-20",
+          position: "top-85 right-20",
         },
       ],
     },

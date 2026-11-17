@@ -23,7 +23,7 @@ const Finder = () => {
         {list.map((item) => (
           <li
             className={clsx(
-              item.id === activeLocation.id ? "active" : "not-active"
+              item.id === activeLocation.id ? "active" : "not-active",
             )}
             key={item.id}
             onClick={() => setActiveLocation(item)}
@@ -32,7 +32,6 @@ const Finder = () => {
             <p className="font-medium text-sm truncate">{item.name}</p>
           </li>
         ))}
-        ;
       </ul>
     </div>
   );
